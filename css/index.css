@@ -116,7 +116,22 @@ h5 {
       
 }
 
+footer{
+    background-color: var(--header-color-primary);
+    height: 200px;
+    margin-top: 8px;
+    display:flex;
+    align-items: center;
 
+    }
+
+li{
+    margin-top: 20px;
+    color:var(--h3-color);
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
 
 
 
