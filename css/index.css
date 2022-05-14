@@ -82,6 +82,8 @@ body {
     background-color:var(--card-grupo);
     border-radius: 10px;
     font-family: macondo;
+    
+    
 }
 
 .card-grupo h3{
@@ -90,12 +92,27 @@ body {
 }
 
 .card-grupo img{
+    display: flex;
     flex-direction: column;
     width: 50px;
     height: 40px;
     margin-left: 18px;
     margin-bottom: 9px;
     margin-top: 10px;
+    
+}
+
+h5 {
+    color: var(--h3-color);
+    margin-left: 40px;
+    margin-top: 10px;
+   
+}
+
+.inline-text, h5{
+    display: flex;
+    align-items: center;
+      
 }
 
 
