@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+:root {
+    --header-color-primary: #42010a;
+     --body-color-primary: #ebf5fb
+     ;
+    --h3-color:  #d7dbdd;
+}
+
+header img {
+    width: 180px;
+    margin-right: 100px
+}
+
+header {
+    background-color: var(--header-color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: macondo;
+    color: var(--h3-color);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color:var(--header-color-primary);
+    border: none;
+    margin-top: 4px;
+    width: 220px;
+    border-radius: 10px;
+    margin-right: 3px;
+    font-family: oswald;
+    font-weight: 100;
+     
+}
+
+h3 {
+    color: var(--h3-color);
+    font-size: 25px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    background-color: var(--header-color-primary);
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+section a, a:hover {
+    text-decoration: none;
+    color: var(--h3-color);
+
+}
+
+body {
+    background-color: var(--body-color-primary);
+}
