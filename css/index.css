@@ -3,8 +3,8 @@
 
 :root {
     --header-color-primary: #42010a;
-     --body-color-primary: #ebf5fb
-     ;
+     --body-color-primary: #ebf5fb;
+     --card-grupo: #283747 ;
     --h3-color:  #d7dbdd;
 }
 
@@ -71,3 +71,31 @@ section a, a:hover {
 body {
     background-color: var(--body-color-primary);
 }
+
+.card-grupo {
+    flex-direction: column;
+    display: flex;
+    width: 280px;
+    height: 300px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color:var(--card-grupo);
+    border-radius: 10px;
+    font-family: macondo;
+}
+
+.card-grupo h3{
+    margin-top: 18px;
+
+}
+
+.card-grupo img{
+    flex-direction: column;
+    width: 50px;
+    height: 40px;
+    margin-left: 18px;
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+
+
